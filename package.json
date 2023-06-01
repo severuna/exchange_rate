@@ -1,6 +1,6 @@
 {
   "name": "exchange-rate",
-  "homepage": "https://severuna.github.io/exchange_rate",
+  "homepage": "https://severuna.github.io/swapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
