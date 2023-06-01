@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/exchange_rate/static/css/main.09ea4ea2.css",
-    "main.js": "/exchange_rate/static/js/main.97f57f17.js",
-    "index.html": "/exchange_rate/index.html",
-    "main.09ea4ea2.css.map": "/exchange_rate/static/css/main.09ea4ea2.css.map",
-    "main.97f57f17.js.map": "/exchange_rate/static/js/main.97f57f17.js.map"
+    "main.css": "/swapi/static/css/main.09ea4ea2.css",
+    "main.js": "/swapi/static/js/main.24ef5d7d.js",
+    "index.html": "/swapi/index.html",
+    "main.09ea4ea2.css.map": "/swapi/static/css/main.09ea4ea2.css.map",
+    "main.24ef5d7d.js.map": "/swapi/static/js/main.24ef5d7d.js.map"
   },
   "entrypoints": [
     "static/css/main.09ea4ea2.css",
-    "static/js/main.97f57f17.js"
+    "static/js/main.24ef5d7d.js"
   ]
 }
