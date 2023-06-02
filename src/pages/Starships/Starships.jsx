@@ -3,7 +3,7 @@ import Page from '../../components/module/Page/Page';
 
 const Starships = () => {
     return (
-        <Page content={
+        <Page title={'Starships'} content={
             <>
                 <h1>Starships</h1>
             </>

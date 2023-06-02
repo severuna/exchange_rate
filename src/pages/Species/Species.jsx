@@ -3,9 +3,9 @@ import Page from '../../components/module/Page/Page';
 
 const Species = () => {
     return (
-        <Page content={
+        <Page title={'species'} content={
             <>
-            <h1>Species</h1>
+            <h1>Species list</h1>
             </>
         } />
     );

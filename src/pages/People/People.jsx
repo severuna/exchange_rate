@@ -3,9 +3,9 @@ import Page from '../../components/module/Page/Page';
 
 const People = () => {
     return (
-        <Page content={
+        <Page title='people' content={
             <>
-                <h1>People</h1>
+                <h1>People list..</h1>
             </>
         } />
     );

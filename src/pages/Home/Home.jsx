@@ -3,9 +3,9 @@ import Page from '../../components/module/Page/Page';
 
 const Home = () => {
     return (
-        <Page content={
+        <Page title={'welcome!'} content={
             <>
-                <h1>home</h1>
+                <h1>some content</h1>
             </>
         } />
     );

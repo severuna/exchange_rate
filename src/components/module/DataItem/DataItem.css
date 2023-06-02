@@ -1,0 +1,21 @@
+.list-item {
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    width: 30rem;
+    border: 1px solid var(--gold);
+    min-height: 40rem;
+    justify-content: start;
+    gap: 3rem;
+}
+
+.list-item__img {
+    width: 100%;
+    min-height: 27rem;
+    border-radius: var(--border-radius);
+    background-color: var(--white);
+}
+
+.list-item__title {
+    font-size: 2.5rem;
+    text-align: center;
+}

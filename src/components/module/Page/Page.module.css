@@ -4,3 +4,11 @@
     min-height: 75vh;
     justify-content: start;
 }
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--gold);
+}

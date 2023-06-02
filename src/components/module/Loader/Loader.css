@@ -1,0 +1,11 @@
+.loader {
+    background-color: var(--gold);
+    flex-wrap: wrap;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+}
+
+.loader-item {
+    width: 4rem;
+    flex-wrap: wrap;
+}
