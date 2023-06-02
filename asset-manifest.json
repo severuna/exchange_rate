@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/swapi/static/css/main.361947fb.css",
-    "main.js": "/swapi/static/js/main.0529486f.js",
+    "main.css": "/swapi/static/css/main.43dafc4d.css",
+    "main.js": "/swapi/static/js/main.5d5551f3.js",
     "static/media/loader.svg": "/swapi/static/media/loader.3d61a50cb70ce86bf2078aee932b6470.svg",
     "static/media/logo.svg": "/swapi/static/media/logo.40c9fc6806296f9abc3920db765a635c.svg",
     "index.html": "/swapi/index.html",
-    "main.361947fb.css.map": "/swapi/static/css/main.361947fb.css.map",
-    "main.0529486f.js.map": "/swapi/static/js/main.0529486f.js.map"
+    "main.43dafc4d.css.map": "/swapi/static/css/main.43dafc4d.css.map",
+    "main.5d5551f3.js.map": "/swapi/static/js/main.5d5551f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.361947fb.css",
-    "static/js/main.0529486f.js"
+    "static/css/main.43dafc4d.css",
+    "static/js/main.5d5551f3.js"
   ]
 }
