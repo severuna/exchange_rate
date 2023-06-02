@@ -1,0 +1,22 @@
+.subtitle {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.link-review {
+    border-radius: var(--border-radius);
+    height: 40rem;
+    justify-content: space-between;
+}
+
+.link-review__img {
+    width: 25rem;
+    height: auto;
+    max-height: 32rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--white);
+}
+
+.link-review__title {
+    font-size: 6rem;
+}
