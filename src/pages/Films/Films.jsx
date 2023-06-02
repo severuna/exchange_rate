@@ -23,7 +23,7 @@ const Films = () => {
     let film_list = [];
 
 
-    films.results ? films.results.forEach((element) => film_list.push(<DataItem key={Math.random() * Math.random()} {...element} />)) : console.log('await');
+    films.results ? films.results.forEach((element) => film_list.push(<DataItem value='films' key={Math.random() * Math.random()} props={element} />)) : console.log('await');
         
     return (
         <Page title='Films' content={

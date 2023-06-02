@@ -10,7 +10,8 @@
 
 .list-item__img {
     width: 100%;
-    min-height: 27rem;
+    height: auto;
+    max-height: 35rem;
     border-radius: var(--border-radius);
     background-color: var(--white);
 }

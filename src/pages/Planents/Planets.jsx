@@ -22,7 +22,7 @@ const Planets = () => {
 
     let planets_list = [];
 
-    planets.results ? planets.results.forEach((element) => planets_list.push(<DataItem key={Math.random() * Math.random()} {...element} />)) : console.log('await');
+    planets.results ? planets.results.forEach((element) => planets_list.push(<DataItem value='planets' key={Math.random() * Math.random()} props={element} />)) : console.log('await');
     return (
         <Page title={'planets'} content={
             <ListContainer content={

@@ -21,7 +21,7 @@ const Species = () => {
 
     let species_list = [];
 
-    species.results ? species.results.forEach((element) => species_list.push(<DataItem key={Math.random() * Math.random()} {...element} />)) : console.log('await');
+    species.results ? species.results.forEach((element) => species_list.push(<DataItem value='species' key={Math.random() * Math.random()} props={element} />)) : console.log('await');
     return (
         <Page title={'species'} content={
             <ListContainer content={

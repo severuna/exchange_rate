@@ -22,7 +22,7 @@ const People = () => {
 
         let people_list = [];
 
-        people.results ? people.results.forEach((element) => people_list.push(<DataItem key={Math.random() * Math.random()} {...element} />)) : console.log('await');
+        people.results ? people.results.forEach((element) => people_list.push(<DataItem value='people' key={Math.random() * Math.random()} props={element} />)) : console.log('await');
     return (
         <Page title='people' content={
             <ListContainer content={

@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import Planets from './pages/Planents/Planets';
 import People from './pages/People/People';
 import Species from './pages/Species/Species';
-import Starships from './pages/Starships/Starships';
 import Films from './pages/Films/Films';
 import Footer from './navigation/Footer/Footer';
 
@@ -21,7 +20,6 @@ const Main = () => {
                 <Route path='/swapi/people' element={<People />} />
                 <Route path='/swapi/planets' element={<Planets />} />
                 <Route path='/swapi/species' element={<Species />} />
-                <Route path='/swapi/starships' element={<Starships />} />
             </Routes>
             <Footer />
         </div>
