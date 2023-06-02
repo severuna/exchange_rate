@@ -1,0 +1,6 @@
+.page {
+    padding: 3rem;
+    gap: 4rem;
+    min-height: 75vh;
+    justify-content: start;
+}

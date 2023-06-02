@@ -1,23 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './Main.css';
+import NavBar from './navigation/NavBar/NavBar';
+import Home from './pages/Home/Home';
+import Planets from './pages/Planents/Planets';
+import People from './pages/People/People';
+import Species from './pages/Species/Species';
+import Starships from './pages/Starships/Starships';
+import Films from './pages/Films/Films';
+import Footer from './navigation/Footer/Footer';
 
 const Main = () => {
-    const [films, setFilms] = useState([]);
-    const getData = async () => {
-        await fetch("https://swapi.dev/api/films/")
-            .then((response) => response.json())
-            .then((data) => {
-                console.log(data);
-                setFilms(data);
-            })
-            .catch((err) => {
-                console.log(err.message);
-            });
-    }
-    getData();
+
     return (
-        <div>
-            <h1>main</h1>
+        <div className='main column'>
+            <NavBar />
+            <Routes>
+                <Route path='/swapi/' element={<Home />} />
+                <Route path='/swapi/films' element={<Films />} />
+                <Route path='/swapi/people' element={<People />} />
+                <Route path='/swapi/planets' element={<Planets />} />
+                <Route path='/swapi/species' element={<Species />} />
+                <Route path='/swapi/starships' element={<Starships />} />
+            </Routes>
+            <Footer />
         </div>
     );
 };
