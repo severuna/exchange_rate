@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/swapi/static/css/main.09ea4ea2.css",
-    "main.js": "/swapi/static/js/main.24ef5d7d.js",
+    "main.css": "/swapi/static/css/main.b4e16cc8.css",
+    "main.js": "/swapi/static/js/main.5da90b45.js",
+    "static/media/logo.svg": "/swapi/static/media/logo.40c9fc6806296f9abc3920db765a635c.svg",
     "index.html": "/swapi/index.html",
-    "main.09ea4ea2.css.map": "/swapi/static/css/main.09ea4ea2.css.map",
-    "main.24ef5d7d.js.map": "/swapi/static/js/main.24ef5d7d.js.map"
+    "main.b4e16cc8.css.map": "/swapi/static/css/main.b4e16cc8.css.map",
+    "main.5da90b45.js.map": "/swapi/static/js/main.5da90b45.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ea4ea2.css",
-    "static/js/main.24ef5d7d.js"
+    "static/css/main.b4e16cc8.css",
+    "static/js/main.5da90b45.js"
   ]
 }
