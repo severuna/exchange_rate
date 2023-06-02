@@ -5,7 +5,7 @@ const DataItem = ( props ) => {
     return (
         <div className='list-item column'>
             <img src='' alt='item img' className='list-item__img' />
-            <h1 className='list-item__title'>{props.title}</h1>
+            <h1 className='list-item__title'>{props.title ? props.title : props.name}</h1>
         </div>
     );
 };
